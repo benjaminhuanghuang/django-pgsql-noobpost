@@ -40,3 +40,14 @@
         'PASSWORD': 'abc123'
     
     
+## Create admin user for application
+    (venv3) python manage.py migrate
+    (venv3) python manage.py createsuperuser  sa/Ben12345
+    login as admin
+    localhost:8000/admin
+    
+## Use bootstrap
+    Create post/static
+    Copy bootsrap css, js into post/static
+    
+    set static and template in settings.py
